@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb"
+  ],
+  "env": {
+    "es6": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    // don't force es6 functions to include space before paren
+    "space-before-function-paren": 0,
+    // allow specifying true explicitly for boolean props
+		"react/jsx-boolean-value": 0,
+		// Shouldnt need default props
+		"react/require-default-props": 0,
+		// I love tabs
+		"indent": [2, "tab"],
+		"no-tabs": 0,
+		"react/jsx-indent": 0,
+		"react/jsx-filename-extension": 0,
+		"react/jsx-props-no-spreading": 0,
+		"eol-last": 0,
+		"react/jsx-indent-props": 0,
+		"jsx-a11y/label-has-associated-control": 0,
+		"object-curly-newline": 0
+  }
+}
