@@ -10,21 +10,6 @@
 npm install --save @conviction/finalsemantic
 ```
 
-## Usage
-
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from '@conviction/finalsemantic'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
-```
 
 ## License
 

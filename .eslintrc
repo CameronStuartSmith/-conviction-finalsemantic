@@ -20,7 +20,7 @@
 		// Shouldnt need default props
 		"react/require-default-props": 0,
 		// I love tabs
-		"indent": [2, "tab"],
+		// "indent": [2, "tab"],
 		"no-tabs": 0,
 		"react/jsx-indent": 0,
 		"react/jsx-filename-extension": 0,
